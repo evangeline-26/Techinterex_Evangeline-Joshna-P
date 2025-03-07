@@ -1,0 +1,38 @@
+/* Background Image for All Pages */
+body {
+    background: url('https://img.freepik.com/free-vector/abstract-geometric-wireframe-background_52683-59421.jpg') no-repeat center center/cover;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation Menu */
+nav ul {
+    list-style: none;
+    padding: 0;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+nav ul li {
+    display: inline;
+    padding: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Home Page Styling */
+#home {
+    margin-top: 50px;
+}
+
+/* Dark Mode Styles */
+.dark-mode {
+    background: #222 !important;
+    color: white;
+}
+.dark-mode a {
+    color: #ff5733 !important;
+}
